@@ -1,0 +1,22 @@
+{
+    "name": "m2payment/module-payment",
+    "description": "Payment for Magento 2",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "ashan@mage2gen.com",
+            "name": "Mage2Gen"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "M2Payment\\Payment\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
